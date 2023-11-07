@@ -1,0 +1,33 @@
+/* Outer Test Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+
+  width: 390px;
+  padding: 24px 16px;
+
+  background: #eff4ff;
+  color: black;
+}
+
+/* Header (e.g. Holiday Bonus) */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+/* Header Arrow  */
+/*  TODO: Check on this, arrow seems a little misaligned with the bar */
+.header img {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  padding: 1.333px 4.742px 1.483px 4.667px;
+  justify-content: center;
+  align-items: center;
+}
